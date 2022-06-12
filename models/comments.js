@@ -12,12 +12,12 @@ const commentSchema = new mongoose.Schema(
     },
     user: {
       type: mongoose.Schema.ObjectId,
-      ref: "user",
+      ref: "users",
       required: [true, "A comment must belong to a user."]
     },
     post: {
       type: mongoose.Schema.ObjectId,
-      ref: "post",
+      ref: "posts",
       required: [true, "A comment must belong to a post."]
     }
   },

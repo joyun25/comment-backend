@@ -463,7 +463,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"comment\": \"留言測試\"\n}",
+					"raw": "{\n    \"comment\": \"留言測試\",\n    \"user\": \"629207680f4d2a3f42d765ac\",\n    \"post\": \"62a5fddb0f0db35e96f61bbb\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -499,7 +499,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://thawing-ocean-97535.herokuapp.com/post/62a5fc940f0db35e96f61b94",
+					"raw": "https://thawing-ocean-97535.herokuapp.com/post/62a5fddb0f0db35e96f61bbb",
 					"protocol": "https",
 					"host": [
 						"thawing-ocean-97535",
@@ -508,7 +508,7 @@
 					],
 					"path": [
 						"post",
-						"62a5fc940f0db35e96f61b94"
+						"62a5fddb0f0db35e96f61bbb"
 					]
 				}
 			},
